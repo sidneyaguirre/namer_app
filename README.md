@@ -1,4 +1,4 @@
-# word_generator
+# name_generator
 
 Name Generator 
 
