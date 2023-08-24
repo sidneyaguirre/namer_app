@@ -37,6 +37,8 @@ class _MyHomePageState extends State<MyHomePage> {
             SafeArea(
               child: landscapeView
                   ? NavigationRail(
+                      backgroundColor:
+                          Theme.of(context).searchViewTheme.backgroundColor,
                       extended: true,
                       destinations: [
                         NavigationRailDestination(

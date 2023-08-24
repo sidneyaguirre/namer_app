@@ -7,10 +7,10 @@ class FavoritesPage extends StatelessWidget {
   Widget build(BuildContext context) {
     var appState = context.watch<MyAppState>();
     var theme = Theme.of(context);
-    var titleTextStyle = theme.textTheme.bodyLarge!.copyWith(
+    var titleTextStyle = theme.textTheme.displaySmall!.copyWith(
       color: theme.colorScheme.primary,
     );
-    var itemTextStyle = theme.textTheme.displaySmall!.copyWith(
+    var itemTextStyle = theme.textTheme.labelLarge!.copyWith(
       color: theme.colorScheme.secondary,
     );
 
